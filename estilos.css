@@ -1,3 +1,86 @@
+/* Reset de estilos y estilos básicos */
 body {
-  font-family: sans-serif
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  text-align: center;
+  color: #075e54;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el formulario */
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  flex: 1;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  background-color: #128c7e;
+  color: white;
+  cursor: pointer;
+}
+
+/* Estilos para los mensajes */
+#mensajes {
+  list-style: none;
+  padding: 0;
+}
+
+#mensajes li {
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+  display: flex;
+  align-items: flex-start;
+}
+
+#mensajes li img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.msg {
+  flex: 1;
+  background-color: #e6f7ff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.date {
+  font-size: 12px;
+  color: #888;
+  margin-top: 5px;
+}
+
+
+.date {
+  font-size: 12px;
+  color: #888;
 }
